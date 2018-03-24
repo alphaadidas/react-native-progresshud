@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import React from 'react';
 import styles from './styles';
 import  {
@@ -8,7 +9,7 @@ import  {
 } from 'react-native';
 export default class loader extends React.Component {
     static propTypes = {
-        name: React.PropTypes.string,
+        name: PropTypes.string,
     };
 
     constructor(props) {

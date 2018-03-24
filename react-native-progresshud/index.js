@@ -2,6 +2,7 @@
 
 import styles  from'./styles';
 import LoadingIndicator  from './loader';
+import PropTypes from 'prop-types';
 import React from 'react';
 import {
     View,
@@ -12,8 +13,8 @@ import {
 export default class index extends React.Component {
 
     static propTypes = {
-        text: React.PropTypes.string,
-        showHUD: React.PropTypes.bool,
+        text: PropTypes.string,
+        showHUD: PropTypes.bool,
     };
 
 
@@ -29,4 +30,3 @@ export default class index extends React.Component {
         }
     }
 }
-
